@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node node_modules/@microsoft/rush/bin/rush install",
+    "postinstall": "node node_modules/@microsoft/rush/bin/rush generate",
     "test": "echo \"Error: no test specified\" && exit 1",
     "app": "cd packages/todoApp && npm run serve",
     "start": "concurrently \"npm run app\" \"npm run storybook\"",
